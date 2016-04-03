@@ -1,0 +1,253 @@
+body,
+div,
+nav,
+img,
+p,
+h2,
+h6,
+h5,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  font-family: 'microsoft yahei';
+  position: relative;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.headerNav {
+  height: 3rem;
+  background-color: #F0423B;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.footerNav {
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  background-color: #999;
+  bottom: 0;
+  padding: 0 0.05%;
+}
+.footerNav div {
+  height: 3rem;
+  background-color: #EFEFED;
+  width: 33.3%;
+  float: left;
+}
+.footerNav div img {
+  display: block;
+  height: 1.8rem;
+  margin: 0.6rem auto;
+}
+.footerNav .active {
+  background-color: #F24942;
+}
+.content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.contentIndex {
+  /*height: 100rem;*/
+  /*background-color: #999;*/
+}
+.contentIndex .hotBook {
+  width: 100%;
+}
+.contentIndex .contentBook .indexBooksDiv {
+  padding: 0 5%;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooksTitle {
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 1rem;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooksTitle h2 {
+  line-height: 1.5rem;
+  font-weight: 400;
+  border-left: 0.2rem solid #F44844;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #1D1D1D;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooksTitle h5,
+.contentIndex .contentBook .indexBooksDiv .indexBooksTitle h6 {
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooksTitle h6 {
+  font-size: 0.8rem;
+  margin-left: 0.6rem;
+  color: #BABABA;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooksTitle h5 {
+  font-size: 0.8rem;
+  color: #F3695F;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooks {
+  width: 100%;
+  padding: 0 0.05%;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooks .indexBook {
+  height: 7.5rem;
+  width: 33.3%;
+  margin-top: 0.7rem;
+  position: relative;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooks .indexBook img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.contentIndex .contentBook .indexBooksDiv .indexBooks .indexBook p {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  bottom: 0.1rem;
+  font-size: 0.9rem;
+  color: #656565;
+}
+.contentMine .imgAndNav {
+  /*height: 10rem;*/
+  background-image: url(../img/minebk.jpg);
+  background-size: 100% 100%;
+  padding-top: 0.5rem;
+}
+.contentMine .imgAndNav .headImg {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+  background-color: #999;
+  border-radius: 50%;
+  background-size: 100% 100%;
+}
+.contentMine .imgAndNav p {
+  text-align: center;
+  height: 2rem;
+  line-height: 2rem;
+  color: #B4A592;
+}
+.contentMine .imgAndNav .mineNav {
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0 0.05%;
+}
+.contentMine .imgAndNav .mineNav .mineNavImg {
+  float: left;
+  width: 33.3%;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+.contentMine .imgAndNav .mineNav .mineNavImg img {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+}
+.contentMine .imgAndNav .mineNav .mineNavImg p {
+  height: 1.5rem;
+  font-size: 0.5rem;
+  line-height: 1.5rem;
+}
+.contentMine .imgAndNav .mineNav .mineNavImg .active {
+  color: #EC5951;
+}
+.contentMine .mineContentDivOut .mineContentDiv {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2rem solid #F6F6F6;
+  position: relative;
+}
+.contentMine .mineContentDivOut .mineContentDiv img {
+  width: 3.5rem;
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+.contentMine .mineContentDivOut .mineContentDiv h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.contentMine .mineContentDivOut .mineContentDiv h6,
+.contentMine .mineContentDivOut .mineContentDiv p {
+  font-weight: 100;
+  color: #C0C0C0;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+.contentMine .mineContentDivOut .mineContentDiv .addData,
+.contentMine .mineContentDivOut .mineContentDiv .returnData {
+  position: absolute;
+  right: 1rem;
+  color: #F15853;
+}
+.contentMine .mineContentDivOut .mineContentDiv .addData {
+  width: 3rem;
+  text-align: center;
+  border: 1px solid #F15853;
+  border-radius: 2px;
+  bottom: 0.5rem;
+  font-size: 0.9rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.contentMine .mineContentDivOut .mineContentDiv .returnData {
+  letter-spacing: 0.1rem;
+  top: 1rem;
+}
+.contentMine .mineContentDivOut .mineContentDiv .mineContentDivFontborrow h6 {
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.contentMine .mineContentDivOut .mineContentDiv .mineContentDivFontcollection h6,
+.contentMine .mineContentDivOut .mineContentDiv .mineContentDivFonthistory h6 {
+  margin-top: 0.45rem;
+}
+.contentSearch {
+  padding-top: 0;
+}
+.contentSearch .searchBar {
+  padding-top: 3rem;
+  height: 3rem;
+  background-color: #F0423B;
+}
+.contentSearch .searchBar input {
+  outline: none;
+  height: 1.6rem;
+  margin-top: 0.2rem;
+}
+.contentSearch .searchBar .input {
+  position: absolute;
+  height: 2rem;
+  background-color: #fff;
+  margin-left: 6%;
+  width: 75%;
+  transition: width 0.2s;
+  -moz-transition: width 0.2s;
+  /* Firefox 4 */
+  -webkit-transition: width 0.2s;
+  /* Safari 和 Chrome */
+  -o-transition: width 0.2s;
+  border-radius: 0.2rem;
+  padding-left: 0.2rem;
+}
+.contentSearch .searchBar .right {
+  margin-right: 6%;
+  color: #fff;
+  height: 2rem;
+  line-height: 2rem;
+}
